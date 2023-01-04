@@ -1,0 +1,61 @@
+body {
+  background-image: url('/static/img/sospice.gif');
+  margin: 0 8px;
+}
+
+.main {
+  background-color: rgb(250, 250, 250);
+  width: 600px;
+  border: 1px black;
+  margin: 0 auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.extraspice .main {
+  animation: reversespin infinite 5s;
+  animation-timing-function: linear;
+}
+
+.meme-inner .meme-thing {
+  width: 94%;
+  margin: 3%;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 400px;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .main {
+    width: 100%;
+  }
+}
+
+.seriously-tho {
+  margin: 0 auto;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.seriously-tho img {
+  vertical-align: middle;
+}
+
+@keyframes reversespin {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
