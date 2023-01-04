@@ -59,7 +59,7 @@ div.flames {
     height: 96px;
     width: 100%;
     bottom: 0;
-    background-image: url("/static/img/flame.gif");
+    background-image: url("/hotspicyme.me/static/img/flame.gif");
     background-repeat: repeat-x;
     pointer-events: none;
 }
